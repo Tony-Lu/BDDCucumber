@@ -1,0 +1,277 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3830200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDef.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 962100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDef.setUP1()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "HRM login test Scenartio",
+        "description": "",
+        "id": "hrm-login-feature;hrm-login-test-scenartio;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 80700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDef.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8795479900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is already on Login page",
+            "match": {
+              "location": "loginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12220400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page is OrangeHRM",
+            "match": {
+              "location": "loginStepDefinition.title_of_login_is_OrangeHRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241479700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \u0027admin\u0027 and \u0027admin123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "admin123",
+                  "offset": 25
+                }
+              ],
+              "location": "loginStepDefinition.user_enters_username_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997732300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "loginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6332800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the home page",
+            "match": {
+              "location": "loginStepDefinition.user_is_on_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 345716300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "browser closed",
+            "match": {
+              "location": "loginStepDefinition.browser_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 351500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDef.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 130400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDef.setUP1()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "HRM login test Scenartio",
+        "description": "",
+        "id": "hrm-login-feature;hrm-login-test-scenartio;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 127300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDef.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4825465100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is already on Login page",
+            "match": {
+              "location": "loginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8341400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page is OrangeHRM",
+            "match": {
+              "location": "loginStepDefinition.title_of_login_is_OrangeHRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292027600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \u0027Tom\u0027 and \u0027test123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 13
+                },
+                {
+                  "val": "test123",
+                  "offset": 23
+                }
+              ],
+              "location": "loginStepDefinition.user_enters_username_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 309668600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "loginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8035800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on the home page",
+            "match": {
+              "location": "loginStepDefinition.user_is_on_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132174000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "browser closed",
+            "match": {
+              "location": "loginStepDefinition.browser_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HRM Login Feature",
+    "description": "",
+    "id": "hrm-login-feature",
+    "keyword": "Feature",
+    "uri": "file:/F:/Java/BDDCucumber/src/main/java/Features/login.feature",
+    "tags": []
+  }
+]
